@@ -1,0 +1,3 @@
+- insert:
+    - id: enwork-workbench-browser
+      name: '@enwork/workbench-browser'

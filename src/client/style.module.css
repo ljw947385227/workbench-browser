@@ -1,0 +1,21 @@
+.dock { position:fixed; right:20px; bottom:20px; width:min(370px,calc(100vw - 40px)); max-height:65vh; overflow:auto; z-index:1000; color:var(--dsw-alias-label-primary,#273142); background:var(--dsw-alias-background-primary,#fff); border:1px solid var(--dsw-alias-border-l2,#d8dee8); border-radius:10px; box-shadow:0 8px 30px #0002; font-size:13px; }
+.dock header { display:flex;gap:8px;align-items:center;padding:12px;border-bottom:1px solid var(--dsw-alias-border-l2,#d8dee8) }
+.dock header strong { margin-right:auto;font-weight:500;overflow-wrap:anywhere }
+.dock button,.page button { border:1px solid var(--dsw-alias-border-l2,#d8dee8);border-radius:6px;background:var(--dsw-alias-background-primary,#fff);color:var(--dsw-alias-state-business-primary,#2867df);padding:6px 10px;cursor:pointer;font:inherit }
+.dock button:disabled { opacity:.5;cursor:default }
+.launcher { position:fixed;right:20px;bottom:20px;z-index:1000;padding:10px 16px;border:1px solid var(--dsw-alias-border-l2,#d8dee8);border-radius:20px;background:var(--dsw-alias-background-primary,#fff);color:var(--dsw-alias-state-business-primary,#2867df);box-shadow:0 4px 16px #0002;cursor:pointer;font:inherit;font-size:13px }
+.body { display:grid;gap:12px;padding:14px }
+.body p,.body ul { margin:0;overflow-wrap:anywhere }
+.body ul { padding-left:18px;display:grid;gap:6px }
+.body small { color:var(--dsw-alias-label-secondary,#687487) }
+.body select { width:100%;padding:7px;margin-top:6px;font:inherit;color:inherit;background:inherit }
+.error { color:var(--dsw-alias-state-danger-primary,#b54730) }
+.page { padding:20px;overflow:auto;height:100%;color:var(--dsw-alias-label-primary,#273142);font-size:13px;box-sizing:border-box }
+.page h2 { font-size:18px;font-weight:500;margin:0 0 12px }
+.page p { line-height:1.7 }
+.tabs { display:flex;gap:8px;margin:16px 0 }
+.tabs button[aria-pressed=true] { background:var(--dsw-alias-state-business-primary,#2867df);color:#fff }
+.form { display:grid;gap:14px;margin:18px 0 }
+.form label { display:grid;gap:5px }
+.form input,.form select { box-sizing:border-box;width:100%;font:inherit;padding:8px;border:1px solid var(--dsw-alias-border-l2,#d8dee8);border-radius:6px;color:inherit;background:var(--dsw-alias-background-primary,#fff) }
+.form em { font-style:normal;color:var(--dsw-alias-label-secondary,#687487) }
